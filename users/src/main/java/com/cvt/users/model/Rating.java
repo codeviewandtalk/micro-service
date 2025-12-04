@@ -1,5 +1,6 @@
 package com.cvt.users.model;
 
+import com.cvt.users.external.service.HotelService;
 import lombok.*;
 
 @Getter
@@ -14,6 +15,7 @@ public class Rating {
     private String userId;
     private int rating;
     private String feedback;
+    private Hotel hotel;
 
 
 }
